@@ -39,7 +39,7 @@ public class Snake {
      * The snake should grow 1 cell.
      */
     public void grow() {
-        /* Implement this */
+        /* TODO: Implement this */
     }
 
     /**
@@ -48,7 +48,7 @@ public class Snake {
      * but the body must pass that point before turning.
      */
     public void changeDirection(Direction direction) {
-        /* Implement this */
+        /* TODO: Implement this */
     }
 
     /**
@@ -56,7 +56,7 @@ public class Snake {
      * with it's head and the rest of its body will follow in the exact same path.
      */
     public void move() {
-        /* Implement this */
+        /* TODO: Implement this */
     }
 
     public void reset() {

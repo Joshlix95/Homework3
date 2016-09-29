@@ -19,10 +19,14 @@ public class Score {
         return numFoodEaten;
     }
 
-    // Increments the points and numFoodEaten
-    // TODO: Extra credit - let the user get more points for each food eaten.
-    // E.g. the first bite gets 10 points. The next bite gets 11 points. The next
-    // bite gets 12 points, and so on.
+    /**
+     * Increments the points and numFoodEaten.
+     * TODO: This should be called whenever the snake encounters food.
+     *
+     * TODO: Extra credit - let the user get more points for each food eaten.
+     * E.g. the first bite gets 10 points. The next bite gets 11 points. The next
+     * bite gets 12 points, and so on.
+     */
     public void eatFood() {
         this.points += Constants.POINTS_PER_FOOD;
         numFoodEaten++;

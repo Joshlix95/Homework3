@@ -29,19 +29,19 @@ public class Model {
 
     // Returns true if the head of the snake has found the food.
     public boolean checkForFood() {
-        /* Implement this */
+        /* TODO: Implement this */
         return false;
     }
 
     // Returns true if the snake has run into itself.
     public boolean checkForCollision() {
-        /* Implement this */
+        /* TODO: Implement this */
         return false;
     }
 
     // Returns true if the snake is out of the bounds of the game screen.
     public boolean checkOutOfBounds() {
-        /* Implement this */
+        /* TODO: Implement this */
         return false;
     }
 }
