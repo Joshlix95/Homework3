@@ -113,8 +113,10 @@ public class View extends JFrame {
             if (model.checkForFood()) {
                 model.getSnake().grow();
                 model.getFood().update();
+                // TODO: Update the score
             }
 
+            // TODO: When a game ends, leave its score on the screen until a new game starts.
             // Check if the snake ate itself or if it's out of bounds
             if (model.checkForCollision() || model.checkOutOfBounds()) {
                 isStartScreen = true;

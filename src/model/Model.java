@@ -41,7 +41,12 @@ public class Model {
 
     // Returns true if the snake is out of the bounds of the game screen.
     public boolean checkOutOfBounds() {
-        /* TODO: Implement this */
+        /**
+         *  TODO: Implement this
+         *  Don't let the screen determine the bounds of your game.
+         *  Create your own boundary that you draw onto the screen.
+         *  Make sure that the food is never created outside of that boundary.
+         */
         return false;
     }
 }
